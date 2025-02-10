@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        body : ["var(--font-nunito-sans)"],
+        display : ["var(--font-nunito)"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        // background: "var(--background)",
+        // foreground: "var(--foreground)",
       },
     },
   },
