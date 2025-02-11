@@ -5,14 +5,14 @@ import clsx from "clsx";
 
 const nunito = Nunito({
   subsets: ['latin'],
-  variable: '--font-nunito',
   display: 'swap',
+  variable: '--font-nunito',
 })
  
 const nunitoSans = Nunito_Sans({
   subsets: ['latin'],
-  variable: '--font-nunito-sans',
   display: 'swap',
+  variable: '--font-nunito-sans',
 })
 
 export const metadata: Metadata = {
